@@ -1,0 +1,1 @@
+print("Welcome to python") #A comment is text written in source code that is ignored during normal program execution.
