@@ -14,6 +14,7 @@ print(student_name,student_roll_number,student_branch)
 marks=23
 marks=25
 print(marks)
+# besfore the reassignment the value is 23 after its 25
 
 #question 27
 name,age,city="rahul",18,"patna"
@@ -33,5 +34,5 @@ print(student,student_name,_class)
 # Student info
 student_name="Abhi"
 student_age=18
-student_age=19
+student_age=19 # reassigned age
 print(student_name,student_age)
