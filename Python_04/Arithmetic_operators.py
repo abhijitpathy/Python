@@ -219,3 +219,13 @@ print((a+b)*c-b) #20.5
 print((-a)*(-b)+(-c)) # -32.5
 print((a)*(-(b))+c) #32.5
 
+text = "Python"
+
+print(text[::2])
+print(text[1::2])
+print(text[::-1])
+text = "Hello World"
+
+print(len(text))
+print(text[5])
+print(text[-1])
