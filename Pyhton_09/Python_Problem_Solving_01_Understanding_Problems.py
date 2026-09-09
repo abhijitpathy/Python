@@ -1,52 +1,52 @@
-# #problem 1
-# num1 = int(input("enter number :"))
-# num2 = int(input("enter number :"))
-# if num1>num2:
-#     print("num1 is greater than num2")
-# else :
-#     print("num2 is greater than num1")
+#problem 1
+num1 = int(input("enter number :"))
+num2 = int(input("enter number :"))
+if num1>num2:
+    print("num1 is greater than num2")
+else :
+    print("num2 is greater than num1")
 
-# #problem 2
-# marks = int(input("enter marks :"))
-# if marks >=90 and marks<100 :
-#     print("A")
-# elif marks >=75 and marks<=89:
-#     print("B")
-# elif marks >=50 and marks<=74:
-#     print("C")
-# elif marks <50 and marks>=0 :
-#     print("fail")
-# else :
-#     print("invalid marks !!")
+#problem 2
+marks = int(input("enter marks :"))
+if marks >=90 and marks<100 :
+    print("A")
+elif marks >=75 and marks<=89:
+    print("B")
+elif marks >=50 and marks<=74:
+    print("C")
+elif marks <50 and marks>=0 :
+    print("fail")
+else :
+    print("invalid marks !!")
 
-# #problem 3
-# l = int(input("enter lenght :"))
-# b = int(input("enter width :"))
-# area = l * b 
-# print(area)
-# perimeter = 2*l + 2*b
-# print(perimeter)
+#problem 3
+l = int(input("enter lenght :"))
+b = int(input("enter width :"))
+area = l * b 
+print(area)
+perimeter = 2*l + 2*b
+print(perimeter)
 
 #problem 4
 
-# num = int(input("enter a number :"))
-# if num>0 :
-#     print("positive")
-# elif num<0 :
-#     print("negative")
-# else:
-#     print("number is zero")
+num = int(input("enter a number :"))
+if num>0 :
+    print("positive")
+elif num<0 :
+    print("negative")
+else:
+    print("number is zero")
 
 
-# #problem 5
-# price1 = int(input("enter the price of item :"))
-# if price1 >=1000:
-#     discount_percentage = 10
-#     discount = price1 * 10/100
-#     final_price = price1 - discount 
-#     print(final_price)
-# else :
-#     print("item price is less than 1000")
+#problem 5
+price1 = int(input("enter the price of item :"))
+if price1 >=1000:
+    discount_percentage = 10
+    discount = price1 * 10/100
+    final_price = price1 - discount 
+    print(final_price)
+else :
+    print("item price is less than 1000")
 
 #problem 6
 num1 = int(input("enter number 1 :"))
