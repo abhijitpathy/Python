@@ -108,12 +108,12 @@ for i in range(1,11):
 #20q 1 × 2 × 3 × ... × n
  # using a for loop.
 n = int(input("Enter n: "))
-factorial = 1
+multiply = 1
 
 for i in range(1, n + 1):
-    factorial *= i
+    multiply *= i
 
-print("Product =", factorial)
+print("Product =", multiply)
 
 # #21Q take a string from the user and print each character on a separate line
 l = input("enter characters :")
