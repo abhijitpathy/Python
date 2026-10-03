@@ -1,3 +1,7 @@
+print('''upi
+card
+cash
+wallet''')
 payment_method = (input("Enter payment method :")).lower()
 
 match payment_method:

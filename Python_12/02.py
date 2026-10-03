@@ -1,3 +1,8 @@
+print(''' 1 → Wi-Fi
+2 → Bluetooth
+3 → Mobile Data
+4 → Airplane Mode
+5 → Exit''')
 settings = int(input("Enter menu :"))
 
 match settings:

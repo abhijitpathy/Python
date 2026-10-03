@@ -1,3 +1,7 @@
+print('''sunny
+rainy
+cloudy
+snowy''')
 weather = (input("Enter weather :")).lower()
 
 match weather:

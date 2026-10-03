@@ -1,3 +1,9 @@
+print('''1 → View Profile
+2 → View Courses
+3 → View Marks
+4 → View Attendance
+5 → Logout
+''')
 Std_menu = int(input("Enter student portal menu :"))
 
 match Std_menu:

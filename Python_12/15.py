@@ -1,3 +1,7 @@
+print('''1 → Bronze
+2 → Silver
+3 → Gold
+4 → Platinum''')
 shp_memb = (input("shop membership :")).lower()
 
 match shp_memb:

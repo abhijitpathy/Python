@@ -1,3 +1,7 @@
+print('''admin
+teacher
+student
+guest''')
 user_role = (input("Enter roles :")).lower
 
 match user_role:

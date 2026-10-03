@@ -1,3 +1,9 @@
+print('''1 → Electronics
+2 → Clothing
+3 → Books
+4 → Grocery
+5 → Exit
+''')
 Shp_menu = int(input("Enter student portal menu :"))
 
 match Shp_menu:

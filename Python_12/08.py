@@ -1,3 +1,7 @@
+print('''1 → Morning Show
+2 → Afternoon Show
+3 → Evening Show
+4 → Night Show''')
 movie_booking = int(input("Enter movie booking time :"))
 
 match movie_booking:

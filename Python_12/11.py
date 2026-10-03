@@ -1,3 +1,8 @@
+print('''pdf
+jpg
+png
+mp3
+mp4''')
 file_type= (input("Enter file extension :")).lower()
 
 match file_type:

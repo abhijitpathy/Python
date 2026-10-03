@@ -1,3 +1,8 @@
+print('''1 → Account Balance
+2 → Mini Statement
+3 → Fund Transfer
+4 → Bill Payment
+5 → Customer Support''')
 bnk_app = int(input("Enter bank application menu :"))
 
 match bnk_app:

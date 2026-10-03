@@ -1,3 +1,7 @@
+print('''1 → Pizza
+2 → Burger
+3 → Pasta
+4 → Sandwich''')
 menu = int(input("Enter menu :"))
 
 match menu:

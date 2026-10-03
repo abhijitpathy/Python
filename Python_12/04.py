@@ -1,3 +1,6 @@
+print('''red
+yellow
+green''')
 Traffic_signal = (input("Enter Traffic color :")).lower()
 
 match Traffic_signal:
