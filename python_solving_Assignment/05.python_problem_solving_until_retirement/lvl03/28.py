@@ -1,9 +1,7 @@
-n = int(input("enter number :"))
-a, b = 0, 1
-print(a,end="")
-print(b,end="")
-for i in range(2, n):
-    next_num = a + b
-    print(next_num,end=" ")
-    a = b
-    b = next_num
+n = int(input("Enter N: "))
+a = 0
+b = 1
+
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
