@@ -172,4 +172,6 @@ def stop_at_zero(n):
         return
     stop_at_zero(n - 1)
 
-# 
+# 18
+# If a recursive function makes too many nested calls, each call is added to the call stack. Eventually, the stack reaches Python's recursion limit, and the program stops with an error and that error is caleed recursion error.
+# A loop does not create a new function call for each iteration, so it uses less memory and avoids reaching the recursion limit. This makes loops more efficient and reliable for large counting tasks.
