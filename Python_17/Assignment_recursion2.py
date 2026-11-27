@@ -30,6 +30,13 @@ def ch_s(s, ch):
         return ch_s(s[1:], ch) 
 print(ch_s("programming","m"))
 
+# 5 gcd
+def gcd(a,b):
+    if b ==0:
+        return a
+    return gcd(b,a%b)
+print(gcd(48,18))
+
 # 6 check whether it is a prime number
 def is_prime(n,i=2):
     if i*i>n:
@@ -49,5 +56,11 @@ def remove_ch(s,ch):
 print(remove_ch("misisippi","s"))
 
 #8 Convert a decimal number into binary
-
+def binary(n):
+    if n==0:
+        return "0"
+    if n==1:
+        return "1"
+    return binary(n//2)+ str(n%2)
+print(binary(13))
    
