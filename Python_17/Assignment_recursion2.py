@@ -63,4 +63,31 @@ def binary(n):
         return "1"
     return binary(n//2)+ str(n%2)
 print(binary(13))
-   
+
+# 9
+def is_only_digits(s):
+    s = str(s)
+    if not s: 
+        return False
+    def check_digits(sub):
+        if sub == "":
+            return True
+        if not ('0' <= sub[0] <= '9'):
+            return False
+        return check_digits(sub[1:])
+        
+    return check_digits(s)
+
+print(is_only_digits("50291"))  
+
+
+# 10
+def sum_digits(n):
+    if n ==0:
+        return 0
+    return n%10 + sum_digits(n//10)
+def digital_root(n):
+    if n<10:
+        return n
+    return digital_root(sum_digits(n))
+print(digital_root(9875))  
