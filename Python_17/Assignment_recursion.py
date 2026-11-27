@@ -73,7 +73,7 @@ def sum_to(n):
     if n == 0:
         return 0
 
-    return n + sum_to(n - 1)
+    return n + sum_to(n - 1)    
 
 print(sum_to(4))
 # 8
@@ -81,7 +81,7 @@ def factorial(n):
     if n == 0:
         return 1
 
-    return n * factorial(n - 1)
+    return n * factorial(n - 1)   # logic of math to find factorial n(n-1)
 
 print(factorial(4))
 
@@ -99,7 +99,7 @@ def power(a, n):
     if n == 0:
         return 1
 
-    return a * power(a, n - 1)
+    return a * power(a, n - 1)     # logic here for return 1 beacuse a to the power 1 is that number but if a to the power 0 is 1
 
 print(power(2, 5))
 print(power(9,0 ))
@@ -154,7 +154,7 @@ print(max_digit(0))
 def mystery(n):
     if n <= 1:
         return n
-
+    
     return mystery(n - 1) + mystery(n - 2)
 print(mystery(0)) #0
 print(mystery(1)) #1
